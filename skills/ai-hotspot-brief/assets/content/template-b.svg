@@ -1,0 +1,23 @@
+<svg width="360" height="480" viewBox="0 0 360 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- 内容页模板B：数据优势型（2x2卡片） -->
+  <!-- 变量：{{ACCENT_COLOR}}, {{MODULE_TITLE}}, {{CARDS}}, {{FOOTNOTE}} -->
+
+  <rect width="360" height="480" fill="#FAFBFC"/>
+  <rect x="0" y="0" width="360" height="5" fill="{{ACCENT_COLOR}}"/>
+
+  <g font-family="sans-serif">
+    <rect x="20" y="24" width="160" height="30" rx="15" fill="{{ACCENT_COLOR}}"/>
+    <text x="100" y="44" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">{{MODULE_TITLE}}</text>
+
+    <!-- 2x2 数据卡片，每个卡片是一个 group -->
+    {{CARD_1}}
+    {{CARD_2}}
+    {{CARD_3}}
+    {{CARD_4}}
+
+    <!-- 底部注释 -->
+    <rect x="20" y="410" width="320" height="50" rx="10" fill="#F8F9F9" stroke="#E5E8E8" stroke-width="1"/>
+    <text x="34" y="430" font-size="11" fill="#555" font-weight="bold">💡 一句话总结</text>
+    <text x="34" y="448" font-size="12" fill="#333">{{FOOTNOTE}}</text>
+  </g>
+</svg>

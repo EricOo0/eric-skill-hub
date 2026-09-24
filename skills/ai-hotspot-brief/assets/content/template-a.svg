@@ -1,0 +1,22 @@
+<svg width="360" height="480" viewBox="0 0 360 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- 内容页模板A：定义+流程型 -->
+  <!-- 变量：{{ACCENT_COLOR}}, {{MODULE_TITLE}}, {{ONE_LINER}}, {{PARA_LINES}}, {{STEPS}}, {{SUMMARY}} -->
+
+  <rect width="360" height="480" fill="#FAFBFC"/>
+  <rect x="0" y="0" width="360" height="5" fill="{{ACCENT_COLOR}}"/>
+
+  <g font-family="sans-serif">
+    <rect x="20" y="24" width="130" height="30" rx="15" fill="{{ACCENT_COLOR}}"/>
+    <text x="85" y="44" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">{{MODULE_TITLE}}</text>
+
+    <!-- 定义段落 -->
+    {{PARA_BLOCK}}
+
+    <!-- 流程图区域 -->
+    {{FLOW_BLOCK}}
+
+    <!-- 底部总结 -->
+    <rect x="20" y="430" width="320" height="34" rx="8" fill="{{ACCENT_COLOR}}" opacity="0.08"/>
+    <text x="180" y="452" font-size="12" fill="{{ACCENT_COLOR}}" text-anchor="middle" font-weight="bold">{{SUMMARY}}</text>
+  </g>
+</svg>

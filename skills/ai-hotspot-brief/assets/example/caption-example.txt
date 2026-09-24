@@ -1,0 +1,32 @@
+# Jev 图文科普 · 配套文案示例
+
+## 小红书正文
+
+AI 圈突然爆火的 Jev，到底是什么？🤖
+
+不聊天、不写长文，只负责"做判断"——这可能是 AI 应用层今年最值得关注的新物种。
+
+**一句话理解**：
+Jev 是 TypeSafe AI 推出的"System One"决策模型。它不是聊天 LLM，输入"当前状态 + 预定义问题"，直接输出选择、评分、概率和置信度，让程序继续执行。
+
+**为什么火？**
+💰 超省 Token：输入 $0.042/100万，输出免费
+⚡ 响应超快：70-500ms，不到 1 秒
+🤖 天生适合 Agent：模型路由、任务判定、风险评估
+📊 性能碾压：benchmark 中 193.6× 更快、444.6× 更便宜
+
+**和 LLM 的关系**：
+不是替代，是分工——LLM 负责"想和写"，Jev 更擅长"选和判"。
+
+你觉得这种"决策模型"会成为 AI 应用的标配吗？评论区聊聊 👇
+
+#AI #大模型 #Jev #TypeSafe #Agent #人工智能 #AI工具
+
+---
+
+## 参考来源
+
+[1] TypeSafe AI 官网 - https://typesafe.ai
+[2] TypeSafe AI 官方博客：Introducing Jev - https://typesafe.ai/blog/jev
+[3] TechCrunch 报道 - https://techcrunch.com/...
+[4] Hacker News 讨论 - https://news.ycombinator.com/...

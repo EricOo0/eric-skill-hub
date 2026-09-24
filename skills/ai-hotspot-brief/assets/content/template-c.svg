@@ -1,0 +1,22 @@
+<svg width="360" height="480" viewBox="0 0 360 480" xmlns="http://www.w3.org/2000/svg">
+  <!-- 内容页模板C：对比+FAQ型 -->
+  <!-- 变量：{{ACCENT_COLOR}}, {{MODULE_TITLE}}, {{COMPARE_TABLE}}, {{FAQ_BLOCK}}, {{QUOTE}} -->
+
+  <rect width="360" height="480" fill="#FAFBFC"/>
+  <rect x="0" y="0" width="360" height="5" fill="{{ACCENT_COLOR}}"/>
+
+  <g font-family="sans-serif">
+    <rect x="20" y="24" width="130" height="30" rx="15" fill="{{ACCENT_COLOR}}"/>
+    <text x="85" y="44" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">{{MODULE_TITLE}}</text>
+
+    <!-- 对比表格 -->
+    {{COMPARE_BLOCK}}
+
+    <!-- FAQ 区域 -->
+    {{FAQ_BLOCK}}
+
+    <!-- 金句收尾 -->
+    <rect x="20" y="410" width="320" height="50" rx="10" fill="#1A1A1A"/>
+    <text x="180" y="440" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">{{QUOTE}}</text>
+  </g>
+</svg>
