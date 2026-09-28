@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI 快讯对话视频生成"
+  short_description: "把每日 AI 快讯生成猫狗对话式短视频（TTS+逐帧渲染）"
